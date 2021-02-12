@@ -1,48 +1,48 @@
 # Export/Import Tool for OpenCart (Russian Edition)
 
-Инструмент импорта/экспорта позволяет пользователю с правами администратора выполнять массовый экспорт категорий, продукции, опций, атрибутов, фильтров и клиентов в файл электронной таблицы Excel.
-Файл электронной таблицы можно редактировать в автономном режиме, а затем повторно импортировать в базу данных OpenCart.
+The import / export tool allows an admin user to bulk export categories, products, options, attributes, filters, and customers to an Excel spreadsheet file.
+The spreadsheet file can be edited offline and then re-imported into the OpenCart database.
 
-Функции включают в себя:
+Features include:
 
-- Импорт может быть инкрементным, то есть данные обновляются или добавляются на сервер OpenCart. 
-- Или он может быть не инкрементным, что означает, что все старые данные сначала удаляются перед импортом.
-- Экспорт может быть ограничен определенными диапазонами данных только для продуктов и категорий.
-- Также поддерживаются несколько языков.
+- The import can be incremental, that is, the data is updated or added to the OpenCart server.
+- Or it may not be incremental, which means that all old data is deleted first before importing.
+- Exports can be limited to certain data ranges for products and categories only.
+- Multiple languages ​​are also supported.
 
-## Требования и ограничения
+## Requirements and restrictions
 
-Требования к памяти могут быть довольно высокими.
+Memory requirements can be quite high.
 
-* Не каждая общая учетная запись веб-хостинга поддерживает высокое использование памяти процессами.
-* Поэтому, если Вы используете базовую учетную запись общего веб-хостинга, одновременно можно экспортировать или импортировать не более нескольких тысяч товаров.
-* Используйте выделенную учетную запись веб-хостинга, если большее количество продуктов должны обрабатываться за один раз. Или экспортируйте и импортируйте несколько раз меньшими партиями.
+* Not every shared web hosting account supports high memory usage by processes.
+* Therefore, if you are using a basic shared web hosting account, you can export or import no more than a few thousand items at a time.
+* Use a dedicated web hosting account if more products need to be processed at one time. Or export and import several times in smaller batches.
 
 
-## Установка
+## Installation
 
-В панели администратора OpenCart выполните следующие действия:
+In your OpenCart admin panel, do the following:
 
-1. Перейдите в `Расширения > Установщик расширений`.
-2. Загрузите `export-import-tool-3x.ocmod.zip`.
-3. Перейдите в `Расширения > Модификации`. Вы должны увидеть запись для этого Export/Import Tool.
-4. Нажмите кнопку «Обновить» (вверху справа на странице).
-5. Перейдите в `Система > Пользователи > Группа пользователей > Изменить администратора`.
-6. Установите доступ и измените разрешения для `extension/export_import`.
+1. Go to `Extensions> Extension Installer`.
+2. Download `export-import-tool-3x.ocmod.zip`.
+3. Go to `Extensions> Mods`. You should see an entry for this Export / Import Tool.
+4. Click the Refresh button (top right of the page).
+5. Go to `System> Users> User Group> Change Administrator`.
+6. Set access and change permissions for `extension / export_import`.
 
-Теперь Вы должны увидеть инструмент Export/Import в меню `Система > Инструменты> > Export/Import`.
+You should now see the Export / Import tool under System> Tools>> Export / Import.
 
-### Дополнительная помощь и индивидуальные версии
+### Additional help and customized versions
 
-Этот инструмент был успешно протестирован на стандартных версиях OpenCart 3.x.
-Не используйте другие версии Opencart с этим модулем.
+This tool has been successfully tested on standard OpenCart 3.x versions.
+Do not use other versions of Opencart with this module.
 
-### Оригинальное расширение
+### Original extension
 
-Данное расширение основано на [Export/Import Tool](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=17). Официальный сайт автора [J.Neuhoff](https://www.mhccorp.com/)
+This extension is based on the [Export / Import Tool] (https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=17). Official site of the author [J.Neuhoff] (https://www.mhccorp.com/)
 
-## Лицензия
-Авторские права на этот инструмент экспорта/импорта (c) 2020-2021 принадлежат ruOpenCart, и он предоставляется в соответствии с условиями [Стандартной общественной лицензии GNU версии 3](http://www.gnu.org/licenses/gpl.html).
+## License
+This Export / Import Tool (c) 2020-2021 is copyright ruOpenCart and is provided under the terms of the [GNU General Public License version 3] (http://www.gnu.org/licenses/gpl.html).
 
-## Поддержка
-Получить поддержку можно на [форуме](https://forum.opencart.name/).
+## Support
+You can get support on the [forum] (https://forum.opencart.name/). 
